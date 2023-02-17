@@ -1,0 +1,42 @@
+Find a Coach Application
+
+Data
+- Coach
+- Request 
+
+Data Model
+
+Coach 
+- id
+- first name
+- last name 
+- description
+- rate 
+
+Request 
+- coachId 
+- message 
+- email 
+
+Mutations
+- register 
+- set coaches 
+- contact coach
+- set requests
+
+Actions
+- 
+
+Layouts (5 pages) every page will be a component 
+- /coaches -> coach list component  
+- /coaches/:id -> coach detail component 
+- /register -> coach registration component 
+
+- /contact -> contact coach component 
+- /requests -> requests received route 
+
+Design 
+
+Coach Header 
+- Coaches, Requests 
+
