@@ -1,3 +1,3 @@
 <template>
-  <section>CONTACTR coach</section>
+  <section>CONTACT</section>
 </template>
