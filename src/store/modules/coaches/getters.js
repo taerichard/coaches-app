@@ -6,4 +6,9 @@ export default {
     return state.coaches && state.coaches.length > 0;
     // if we have coaches otherwise ffalse
   },
+  isCoach(state, getters, rootState, rootGetters) {
+    const coaches = getters.coaches;
+    const userId = rootGetters.userId;
+    return coaches.some((coach) => coach.id === userId);
+  },
 };

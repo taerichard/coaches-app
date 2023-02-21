@@ -5,6 +5,11 @@ const store = createStore({
   modules: {
     coaches: coachesModules, // allows namespacing
   },
+  state() {
+    return {
+      userId: 'c3',
+    };
+  },
 });
 
 export default store;
